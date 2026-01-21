@@ -125,3 +125,37 @@ handlers:
 requirements.txt
 Plaintext
 Flask==3.0.0
+
+========================================
+
+program 5 : To perform Various IT operations on local and semote reparitories Using GIT cheat - sheet.
+
+# 1. Initialize a new local repository
+git init
+
+# 2. Check status of files
+git status
+
+# 3. Stage all files
+git add .
+
+# 4. Commit staged changes
+git commit -m "Initial commit"
+
+# 5. Add remote repository
+git remote add origin <URL>
+
+# 6. Push changes to remote
+git push -u origin main
+
+# 7. Pull latest changes from remote
+git pull
+
+# 8. Create and switch to a new branch
+git checkout -b <branch_name>
+
+# 9. Switch to an existing branch
+git checkout <branch_name>
+
+# 10. Merge another branch into current branch
+git merge <branch_name>
