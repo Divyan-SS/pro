@@ -1,1 +1,82 @@
-gekklkd
+### 1. Create a Resume Using Zoho Cloud Platform
+
+Algorithm:
+1. Start.
+2. Open Zoho Cloud Platform.
+3. Sign in to Zoho account.
+4. Open Zoho Writer.
+5. Create a new resume document.
+6. Enter personal, education, and skill details.
+7. Format the resume.
+8. Save to Zoho Cloud.
+9. Download or share the resume.
+10. End.
+
+---
+
+### 2. Create a Resume Using Google Cloud Platform
+
+Algorithm:
+1. Start.
+2. Sign in to Google Cloud Platform.
+3. Create or select a project.
+4. Open Google Docs.
+5. Create a new document.
+6. Enter resume details.
+7. Format neatly.
+8. Save to Google Drive.
+9. Download or share.
+10. End.
+
+---
+
+### 3. Create and Deploy an Application on Google App Engine to Display Even Numbers
+
+Algorithm:
+1. Start.
+2. Open Google Cloud Console and sign in.
+3. Create a new project and enable App Engine.
+4. Create application files:
+   - main.py (Flask app to generate even numbers)
+   - app.yaml (runtime configuration)
+   - requirements.txt (Flask dependency)
+5. In main.py, define a route (/) to accept input n and generate even numbers.
+6. Configure App Engine using app.yaml.
+7. Deploy the application using gcloud app deploy.
+8. Access the deployed URL in a browser.
+9. Pass n as a query parameter to view even numbers in JSON format.
+10. End.
+
+---
+
+### 4. Install and Configure Git on Windows
+
+Algorithm:
+1. Start.
+2. Open a web browser.
+3. Go to git-scm.com.
+4. Download Git for Windows.
+5. Run the installer and choose default options.
+6. Complete installation.
+7. Verify installation using git --version.
+8. End.
+
+---
+
+### 5. Perform Local and Remote Repository Operations Using Git Bash
+
+Algorithm:
+1. Start.
+2. Log in to GitHub.
+3. Click New and create a repository.
+4. Give project name and create the repo.
+5. Create a local project folder.
+6. Right-click folder → Git Bash Here.
+7. Initialize repo using git init.
+8. Check status using git status.
+9. Add files using git add .
+10. Commit files using git commit -m "message".
+11. Add remote repo URL using git remote add origin <URL>.
+12. Push to GitHub using git push -u origin main.
+13. Refresh GitHub repo page to verify.
+14. End.
