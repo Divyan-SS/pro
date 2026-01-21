@@ -80,3 +80,48 @@ Algorithm:
 12. Push to GitHub using git push -u origin main.
 13. Refresh GitHub repo page to verify.
 14. End.
+
+
+========================================================
+Python
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+@app.route("/")
+def generate_evens():
+    try:
+        # default is 10
+        n = int(request.args.get("n", 10)) 
+        
+        if n < 1:
+            return jsonify({"error": "n must be >= 1"}), 400
+            
+        # Generating even numbers
+        even_numbers = [2*i for i in range(1, n + 1)]
+        
+        return jsonify({
+            "count": n,
+            "even_numbers": even_numbers
+        })
+        
+    except ValueError:
+        return jsonify({"error": "Invalid input. Provide an integer n."}), 400
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080)
+
+==========================================
+
+app.yaml
+YAML
+runtime: python311
+handlers:
+  - url: /.*
+    script: auto
+
+============================================
+
+requirements.txt
+Plaintext
+Flask==3.0.0
